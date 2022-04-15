@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Legend of Zelda",
+        "imageURL": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_TheLegendOfZelda_image1600w.jpg",
+        "rating": 999,
+        "text": "placeholder description text"
+    },
+
+    {
+        "id": 2,
+        "title": "Tetris",
+        "imageURL": "https://www.extremetech.com/wp-content/uploads/2014/06/tetris-game-boy-640x353.jpg",
+        "rating": 4,
+        "text": "placeholder description text"
+    },
+
+    {
+        "id": 3,
+        "title": "Super Mario Bros.",
+        "imageURL": "https://i.ytimg.com/vi/Aw3AwK74wWQ/hqdefault.jpg",
+        "rating": 27,
+        "text": "placeholder description text"
+    },
+    {
+        "id": 4,
+        "title": "Tom & Jerry",
+        "imageURL" : "placeholder",
+        "rating": 3,
+        "text": "placeholder description text"
+      },
+      {
+        "id": 5,
+        "title": "Bugs Bunny Crazy Castle",
+        "imageURL" : "placeholder",
+        "rating": 4,
+        "text": "placeholder description text"
+      },
+      {
+        "id": 6,
+        "title": "Donkey Kong",
+        "imageURL" : "placeholder",
+        "rating": 5,
+        "text": "placeholder description text"
+      }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Vintage Video Games</h1>
+      </header>
+
+<main>
+<form>
+  <input
+  type = "text"
+  id = "title"
+  placeholder="what's the video game title?"/>
+
+  <input
+    type = "text"
+    id = "img"
+    placeholder="paste an image URL" />
+
+    <section id="ratings-container">
+      <p>Rate the video game</p>
+      <div id="radio-container">
+          <label for="one">
+              <input
+                  type="radio"
+                  name="ratings"
+                  value="1"
+                  id="one"/>
+              1
+          </label>
+          <label for="two">
+              <input
+                  type="radio"
+                  name="ratings"
+                  value="2"
+                  id="two"/>
+              2
+          </label>
+          <label for="three">
+              <input
+                  type="radio"
+                  name="ratings"
+                  value="3"
+                  id="three"/>
+              3
+          </label>
+          <label for="four">
+              <input
+                  type="radio"
+                  name="ratings"
+                  value="4"
+                  id="four"/>
+              4
+          </label>
+          <label for="five">
+              <input
+                  type="radio"
+                  name="ratings"
+                  value="5"
+                  id="five"/>
+              5
+          </label>
+      </div>
+    </section>
+    <button>add video game</button>
+</form>
+<section id = "videoGames-container"></section>
+</main>
+    
+    
+
+
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <div class = "button">
+      <button id="funFactButton">Fun Fact of the Day</button>
+      <script>
+        document.getElementById("funFactButton").onclick = function () {
+          axios.get("http://localhost:4000/api/funfact/")
+              .then(function (response) {
+                const data = response.data;
+                alert(data);
+              });
+        };
+      </script>
+    
+  </body>
+</html>
